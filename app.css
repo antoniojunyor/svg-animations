@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus { outline: 1px solid red; }
+
+*::before, *::after { box-sizing: inherit; }
+
+html, body { height: 100%; }
+
+body { background-color: #f9d8ad; }
+
+.container-svg {
+  width: 600px;
+  height: 600px;
+  margin: 20px auto 0;
+}

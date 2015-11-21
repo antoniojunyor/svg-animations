@@ -22,7 +22,7 @@ var svg_animation = (function() {
     var staggerFrom = {
       scale: 0,
       opacity: 0,
-      transformOrigin: 'center center',
+      transformOrigin: 'top right',
     };
 
     var staggerTo = {

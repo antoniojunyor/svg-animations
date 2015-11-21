@@ -32,6 +32,14 @@ var svg_animation = (function() {
     };
 
     tmax_tl.staggerFromTo(shapes, duration, staggerFrom, staggerTo, stagger, 0);
+
+    $('svg').on('mouseover', function() {
+      tmax_tl.pause();
+    });
+
+    $('svg').on('mouseout', function() {
+      tmax_tl.play();
+    });
   }
 
   return {

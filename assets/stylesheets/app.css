@@ -16,4 +16,5 @@ body { background-color: #f9d8ad; }
   width: 600px;
   height: 600px;
   margin: 20px auto 0;
+  overflow: hidden;
 }

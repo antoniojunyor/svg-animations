@@ -10,7 +10,7 @@ var svg_animation = (function() {
     var tmax_opts = {
       delay: 0.7,
       repeat: -1,
-      repeatDelay: 0.7,
+      repeatDelay: 1.5,
       yoyo: true
     };
 
@@ -28,7 +28,7 @@ var svg_animation = (function() {
     var staggerTo = {
       opacity: 1,
       scale: 1,
-      ease: Elastic.easeInOut
+      ease: Elastic.easeOut.config(2,1)
     };
 
     tmax_tl.staggerFromTo(shapes, duration, staggerFrom, staggerTo, stagger, 0);

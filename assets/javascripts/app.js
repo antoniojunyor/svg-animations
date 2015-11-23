@@ -22,12 +22,16 @@ var svg_animation = (function() {
     var staggerFrom = {
       scale: 0,
       opacity: 0,
+      x: 50,
+      y: -50,
       transformOrigin: 'top right',
     };
 
     var staggerTo = {
       opacity: 1,
       scale: 1,
+      x: 0,
+      y: 0,
       ease: Elastic.easeOut.config(2,1)
     };
 
